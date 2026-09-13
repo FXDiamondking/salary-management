@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { api, Employee, Page } from '../../lib/api';
+import { api, type Employee, type Page } from '../../lib/api';
 import { Search, ChevronLeft, ChevronRight, Edit2, Check, X } from 'lucide-react';
 
 export function EmployeeDirectory() {

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { api, AnalyticsSummary } from '../../lib/api';
+import { api, type AnalyticsSummary } from '../../lib/api';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, CartesianGrid } from 'recharts';
 import { DollarSign, Users, Briefcase, Globe } from 'lucide-react';
 
