@@ -10,6 +10,8 @@ import lombok.AllArgsConstructor;
 public class AnalyticsSummaryResponse {
     private BigDecimal totalPayroll;
     private BigDecimal averagePayroll;
+    private BigDecimal medianSalary;
+    private long totalEmployees;
     private List<GroupedAnalytics> byCountry;
     private List<GroupedAnalytics> byDepartment;
 }
