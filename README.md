@@ -4,6 +4,15 @@
 
 ---
 
+## 📑 Submission Artifacts
+
+As requested in the assessment guidelines, all thinking, planning, and design documents are included in the repository:
+
+- 📋 [**Product Requirements Document (PRD)**](file:///Users/nilanjan/Projects/salary-management/salary-management/REQUIREMENTS.md) — Goal, scope, core features, deliberate non-goals, and constraints.
+- 📐 [**Planning & Design Notes**](file:///Users/nilanjan/Projects/salary-management/salary-management/PLANNING_AND_DESIGN_NOTES.md) — Architecture diagrams, design decisions, trade-offs, performance considerations for 10k records, and intentional AI usage log.
+
+---
+
 ## 🚀 Quick Start (One Command)
 
 ```bash
@@ -97,6 +106,7 @@ Then open **[http://localhost](http://localhost)** in your browser. The backend 
 salary-management/
 ├── docker-compose.yml          # Full-stack orchestration
 ├── REQUIREMENTS.md             # Product requirements document
+├── PLANNING_AND_DESIGN_NOTES.md # Architecture, design decisions & trade-offs
 │
 ├── backend/                    # Java Spring Boot API
 │   ├── Dockerfile
