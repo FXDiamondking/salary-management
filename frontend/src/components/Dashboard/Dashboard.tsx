@@ -45,7 +45,7 @@ export function Dashboard() {
                 <CartesianGrid strokeDasharray="3 3" horizontal={true} vertical={false} stroke="rgba(255,255,255,0.1)" />
                 <XAxis type="number" tickFormatter={(val) => `$${val/1000}k`} />
                 <YAxis dataKey="groupName" type="category" width={100} tick={{fontSize: 12}} />
-                <Tooltip formatter={(val: number) => formatCurrency(val)} />
+                <Tooltip formatter={(val: any) => formatCurrency(Number(val))} />
                 <Bar dataKey="averageSalary" fill="#3b82f6" radius={[0, 4, 4, 0]} />
               </BarChart>
             </ResponsiveContainer>
@@ -60,7 +60,7 @@ export function Dashboard() {
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="rgba(255,255,255,0.1)" />
                 <XAxis dataKey="groupName" tick={{fontSize: 12}} />
                 <YAxis tickFormatter={(val) => `$${val/1000}k`} />
-                <Tooltip formatter={(val: number) => formatCurrency(val)} />
+                <Tooltip formatter={(val: any) => formatCurrency(Number(val))} />
                 <Bar dataKey="averageSalary" fill="#8b5cf6" radius={[4, 4, 0, 0]} />
               </BarChart>
             </ResponsiveContainer>
